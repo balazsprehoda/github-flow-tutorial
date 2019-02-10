@@ -1,1 +1,8 @@
 language: java
+git:
+  depth: 3
+  submodules: false
+# blocklist
+branches:
+  except:
+  - write-readme
